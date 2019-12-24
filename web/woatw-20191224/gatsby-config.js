@@ -7,9 +7,9 @@
 module.exports = {
   // Add common site data (not required by the theme, but recommended)
   siteMetadata: {
-    title: "Starter Site for Gatsby Theme Musician",
-    description: "",
-    siteUrl: "https://github.com/ekafyi/starter-musician-theme"
+    title: "Wyatt Olney & The Wreckage",
+    description: "Seattle WA",
+    siteUrl: "https://www.woatw.com"
   },
   plugins: [
     // Add gatsby-theme-musician to your site
