@@ -1,8 +1,8 @@
 version: '3.7'
 
 services:
-  woatw-20191224:
-    container_name: woatw-20191224
+  woatw-20191224-web:
+    container_name: woatw-20191224-web
     build:
       context: ./
       dockerfile: ./Dockerfile

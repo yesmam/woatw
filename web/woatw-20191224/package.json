@@ -11,7 +11,11 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "docker:build": "docker-compose up --remove-orphans --build --force-recreate",
+    "docker:start": "docker-compose up",
+    "docker:stop": "docker-compose down",
+    "docker:nuke": "docker system prune -a && docker volume prune"
   },
   "dependencies": {
     "gatsby-theme-musician": "^1.0.5",
