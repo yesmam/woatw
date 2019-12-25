@@ -7,7 +7,7 @@ import useSiteMetadata from "../use-site-metadata"
 import LandingSectionTitle from "./landing-section-title"
 import ShowItem from "./show-item"
 
-const Shows = ({ shows = [], locale = "en-US" }) => {
+const ShowsV2 = ({ shows = [], locale = "en-US" }) => {
   // Use text label from YAML user config
   let sectionTitle = "Shows"
   const { textLabels } = useSiteMetadata()
@@ -36,4 +36,4 @@ const Shows = ({ shows = [], locale = "en-US" }) => {
   )
 }
 
-export default Shows
+export default ShowsV2
