@@ -3,7 +3,7 @@
 import React from "react"
 import { jsx } from "theme-ui"
 
-import useSiteMetadata from "./use-site-metadata"
+import useSiteMetadata from "../use-site-metadata"
 import Grids from "./grids"
 import LandingSectionTitle from "./landing-section-title"
 import ReleaseItem from "./release-item"
