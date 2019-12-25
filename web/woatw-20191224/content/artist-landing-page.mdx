@@ -1,0 +1,52 @@
+import ShowsV2 from '../components/fix-for-locale-display-bug-in-theme/shows.js'
+import ReleasesV2 from '../components/fix-for-locale-display-bug-in-theme/releases.js'
+
+<Banner />
+
+<Container>
+
+<!-- Landing page content
+<p className="text-center">
+  Welcome to Seattle
+</p>
+-->
+
+<!-- Call to action
+<p className="text-center">
+  <a class="gtm-button" href="#" rel="external">
+    Learn More
+  </a>
+</p>
+-->
+
+<ReleasesV2 releases={props.releases} locale="en-US" />
+
+<ShowsV2 shows={props.shows} locale="en-US" />
+
+<div id="videos">
+  <h2>Videos</h2>
+</div>
+
+<!-- Silver Bullet -->
+<Youtube url="https://www.youtube.com/watch?v=_nNYBsqWMV0" />
+
+<!-- Welcome to Seattle -->
+<Youtube url="https://www.youtube.com/watch?v=G4qpFCWK6k8" />
+
+<!-- Off the Wagon -->
+<Youtube url="https://www.youtube.com/watch?v=wti7xEgNxeA" />
+
+<!-- Embed Youtube video -->
+<!-- <Youtube url="https://www.youtube.com/watch?v=GBUCmMxmup0" /> -->
+
+<!-- Embed Spotify and Soundcloud tracks -->
+<!-- https://open.spotify.com/track/4uLU6hMCjMI75M1A2tKUQC -->
+
+<div id="contact" className="text-center">
+  For contact and booking information, please contact us on&nbsp;
+    <a href="https://www.facebook.com/wyattolneyandthewreckage/" target="__blank" rel="external">
+      Facebook
+    </a>
+</div>
+
+</Container>

@@ -1,0 +1,9 @@
+navigation:
+  - text: Releases
+    url: "#releases"
+  - text: Shows
+    url: "#shows"
+  - text: Videos
+    url: "#videos"
+  - text: Contact
+    url: "#contact"

@@ -1,0 +1,19 @@
+- title: Welcome to Seattle
+  date: 2017-10-04
+  release_type: Album
+  image: "./images/album-covers/welcome_to_seattle_20171004.jpg"
+  links:
+    - name: Spotify
+      url: https://open.spotify.com/album/35dllyacPmxVoEu60rm6Qn?si=uwS5Pb3tSpCS70-MQlDn1w
+    - name: Apple Music
+      url: https://music.apple.com/us/album/welcome-to-seattle/1288419831
+
+- title: Dark Futures
+  date: 2016-06-03
+  release_type: Album
+  image: "./images/album-covers/dark_futures_20160603.jpg"
+  links:
+    - name: Spotify
+      url: https://open.spotify.com/album/68j6jAclKrmc2r5uBxBic1?si=jcQNa9EiSCultXoWs8Zjdw
+    - name: Apple Music
+      url: https://music.apple.com/us/album/dark-futures/1109768747

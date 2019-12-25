@@ -1,0 +1,31 @@
+{
+  "name": "woatw",
+  "version": "0.0.0",
+  "description": "This is the official repo for Wyatt Olney & The Wreckage.",
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run web:start:build",
+    "build:docker": "npm run docker:web:build",
+    "start": "npm run web:start",
+    "start:docker": "npm run docker:web:start",
+    "stop": "npm run web:stop",
+    "stop:docker": "npm run docker:web:stop",
+    "web:start:build": "cd web/woatw-20191224 && npm run build",
+    "web:start": "cd web/woatw-20191224 && npm start",
+    "web:stop": "cd web/woatw-20191224 && npm run stop",
+    "docker:nuke": "docker system prune -a && docker volume prune",
+    "docker:web:build": "cd web/woatw-20191224 && npm run docker:build",
+    "docker:web:start": "cd web/woatw-20191224 && npm run docker:start",
+    "docker:web:stop": "cd web/woatw-20191224 && npm run docker:stop"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/woatw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/woatw/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/woatw#readme"
+}
