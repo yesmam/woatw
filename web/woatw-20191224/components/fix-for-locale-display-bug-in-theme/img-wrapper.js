@@ -14,6 +14,7 @@ export default ({ children, src, ratio = 1, ...props }) => (
       backgroundImage: src ? `url(${src})` : `none`,
       backgroundSize: "cover",
       backgroundPosition: "center",
+      quality: 100,
     }}
   >
     {children}

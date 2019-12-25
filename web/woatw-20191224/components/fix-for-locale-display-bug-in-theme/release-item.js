@@ -24,6 +24,7 @@ const ReleaseItem = ({ id, title, date, release_type, image, links, locale }) =>
           fluid={image.childImageSharp.fluid}
           alt="Album cover"
           className="GtmReleaseItem__cover"
+          quality={100}
         />
       ) : (
         <ImgWrapper
