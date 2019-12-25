@@ -1,3 +1,6 @@
+import ShowsV2 from '../components/shows.js'
+import ReleasesV2 from '../components/releases.js'
+
 <Banner />
 
 <Container>
@@ -16,9 +19,9 @@
 </p>
 -->
 
-<Releases releases={props.releases} />
+<ReleasesV2 releases={props.releases} locale="en-US" />
 
-<Shows shows={props.shows} />
+<ShowsV2 shows={props.shows} locale="en-US" />
 
 <div id="contact" className="text-center">
   For contact and booking information, please contact us on&nbsp;
