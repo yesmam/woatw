@@ -68,7 +68,7 @@ const ShowItemV2 = ({ id, name, date, location, info_url, map_url, locale }) => 
               <>
                 {" "}
                 &middot;{" "}
-                <Styled.a href={info_url} rel="external nofollow">
+                <Styled.a href={map_url} rel="external nofollow" target="__blank">
                   <strong>Map</strong>
                 </Styled.a>
               </>
@@ -81,6 +81,7 @@ const ShowItemV2 = ({ id, name, date, location, info_url, map_url, locale }) => 
               href={info_url}
               rel="external nofollow"
               sx={{ variant: "textStyles.button" }}
+              target="__blank"
             >
               Detail / RSVP
             </a>
