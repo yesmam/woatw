@@ -5,6 +5,7 @@
   "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "cd web/woatw-20191224 && npm run deploy",
     "build": "npm run web:start:build",
     "build:docker": "npm run docker:web:build",
     "start": "npm run web:start",
