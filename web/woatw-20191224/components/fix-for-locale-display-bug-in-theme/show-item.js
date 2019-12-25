@@ -5,16 +5,6 @@ import React from "react"
 import { Styled, jsx } from "theme-ui"
 
 const ShowItemV2 = ({ id, name, date, location, info_url, map_url, locale }) => {
-  console.log(`
-    date from props: ${date}
-    date label: ${new Date(`${date}T00:00:00`).toLocaleDateString("en-US", {
-      day: "numeric",
-      month: "long",
-      year: "numeric",
-      timeZone: 'UTC',
-    })}
-  `);
-
   const utcDate = `${date}T00:00:00`
 
   return (
