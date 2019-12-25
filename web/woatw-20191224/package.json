@@ -1,8 +1,7 @@
 {
   "private": true,
-  "name": "starter-musician-theme",
-  "description": "A starter site for using gatsby-theme-musician",
-  "version": "1.0.0",
+  "name": "woatw-20191224",
+  "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "deploy": "now",
