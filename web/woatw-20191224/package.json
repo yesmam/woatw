@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "deploy": "now --prod",
     "build": "gatsby build",
     "develop": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -18,8 +19,9 @@
     "docker:nuke": "docker system prune -a && docker volume prune"
   },
   "dependencies": {
-    "gatsby-theme-musician": "^1.0.5",
     "gatsby": "^2.13.28",
+    "gatsby-plugin-gtag": "^1.0.12",
+    "gatsby-theme-musician": "^1.0.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
