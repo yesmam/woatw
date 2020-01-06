@@ -34,6 +34,14 @@ module.exports = {
         // content: `content`,
         // pwaName: null
       }
-    }
+    },
+    // Add gatsby-plugin-mailchimp
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        // Find the POST URL for signing up to your list with an embedded form
+        endpoint: 'https://woatw.us11.list-manage.com/subscribe/post?u=6ebf45cada6d638457bc51a30&amp;id=64b10a0a10',
+      },
+    },
   ]
 };
