@@ -4,3 +4,9 @@
   # info_url and map_url are optional
   info_url: https://www.facebook.com/events/529398251189464/
   map_url: https://www.google.com/maps/place/Tony+V's+Garage+Saloon+%26+Eatery/@47.9791285,-122.2084362,17z/data=!3m1!4b1!4m5!3m4!1s0x549aaa99ebbc5a0d:0xc25a453ef324ac00!8m2!3d47.9791249!4d-122.2062476
+- name: WOATW (also feat. Woodshed, The Requisite, and End of May)
+  date: "2020-02-22"
+  location: Aurora Borealis, 16708 Aurora Ave N, Shoreline, WA, 98133
+  # info_url and map_url are optional
+  # info_url: https://www.facebook.com/events/TBD
+  map_url: https://www.google.com/maps/place/Aurora+Borealis/@47.7507027,-122.3471437,17z/data=!3m1!4b1!4m5!3m4!1s0x54901120f78544e3:0x8794c4683ce1edf9!8m2!3d47.7507027!4d-122.344955
