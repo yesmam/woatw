@@ -3,6 +3,9 @@
   "name": "woatw-20191224",
   "version": "0.0.0",
   "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "deploy": "now",
     "deploy:prod": "now --prod",
