@@ -6,7 +6,7 @@
   "scripts": {
     "deploy": "now",
     "deploy:prod": "now --prod",
-    "build": "gatsby build",
+    "build": "npx gatsby build",
     "develop": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
