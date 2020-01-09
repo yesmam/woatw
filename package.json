@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "description": "This is the official repo for Wyatt Olney & The Wreckage.",
   "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "cd web/woatw-20191224 && npm run deploy",
-    "deploy:prod": "cd web/woatw-20191224 && npm run deploy:prod",
+    "deploy": "now",
+    "deploy:prod": "now --prod",
     "build": "npm run web:start:build",
     "build:docker": "npm run docker:web:build",
     "start": "npm run web:start",
