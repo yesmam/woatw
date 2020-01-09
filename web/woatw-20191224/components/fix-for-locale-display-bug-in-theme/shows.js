@@ -8,17 +8,11 @@ import LandingSectionTitle from "./landing-section-title"
 import ShowItem from "./show-item"
 
 const ShowsV2 = ({ shows = [], locale = "en-US" }) => {
-  // Use text label from YAML user config
-  let sectionTitle = "Shows"
   const { textLabels } = useSiteMetadata()
-  if (typeof textLabels.section_shows_title !== "undefined") {
-    if (textLabels.section_shows_title.length) {
-      sectionTitle = textLabels.section_shows_title
-    }
-  }
+  const sectionTitle = textLabels.section_shows_title || "Tour Dates"
 
   return (
-    <section id="shows" sx={{ variant: "layout.landingSection" }}>
+    <section id="tour-dates" sx={{ variant: "layout.landingSection" }}>
       <LandingSectionTitle>{sectionTitle}</LandingSectionTitle>
       <ol
         sx={{
