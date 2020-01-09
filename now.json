@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "woatw-20191224-web",
+  "builds": [
+    {
+      "src": "web/woatw-20191224/package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "public" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)", "dest": "/web/$1"
+    }
+  ]
+}
