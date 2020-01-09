@@ -10,13 +10,13 @@ artist:
 social:
   - name: Facebook
     url: https://www.facebook.com/wyattolneyandthewreckage/
-  # - name: Instagram
-  #   url: https://instagram.com
+  - name: Instagram
+    url: https://www.instagram.com/wyattolneyandthewreckage/
+  - name: Youtube
+    url: https://www.youtube.com/user/BurnTheWitchMusic
+  - name: Spotify
+    url: https://open.spotify.com/artist/3ExbLuST1For3zEAbbzNWC
   # - name: Twitter
   #   url: https://twitter.com
-  # - name: Youtube
-  #   url: https://youtube.com
-  # - name: Spotify
-  #   url: https://spotify.com
 
 site_language: en
