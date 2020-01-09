@@ -1,8 +1,8 @@
 navigation:
   - text: Releases
     url: "#releases"
-  - text: Shows
-    url: "#shows"
+  - text: Tour Dates
+    url: "#tour-dates"
   - text: Videos
     url: "#videos"
   - text: Contact
