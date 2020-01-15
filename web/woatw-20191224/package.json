@@ -23,6 +23,7 @@
     "gatsby": "^2.13.28",
     "gatsby-plugin-gtag": "^1.0.12",
     "gatsby-plugin-mailchimp": "^5.1.2",
+    "gatsby-plugin-manifest": "^2.2.37",
     "gatsby-theme-musician": "^1.0.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

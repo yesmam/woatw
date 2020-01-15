@@ -1,8 +1,8 @@
 version: '3.7'
 
 services:
-  woatw-20191224-web:
-    container_name: woatw-20191224-web
+  web:
+    container_name: gatsby
     build:
       context: ./
       dockerfile: ./Dockerfile
