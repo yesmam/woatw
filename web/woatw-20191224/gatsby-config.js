@@ -12,6 +12,8 @@ module.exports = {
     siteUrl: "https://www.woatw.com"
   },
   plugins: [
+
+    // Google Analytics
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
@@ -23,6 +25,7 @@ module.exports = {
         anonymize: true,
       },
     },
+
     // Add gatsby-theme-musician to your site
     {
       resolve: "gatsby-theme-musician",
@@ -35,6 +38,7 @@ module.exports = {
         // pwaName: null
       }
     },
+
     // Add gatsby-plugin-mailchimp
     {
       resolve: 'gatsby-plugin-mailchimp',
