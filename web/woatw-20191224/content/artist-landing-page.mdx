@@ -1,6 +1,7 @@
 import ShowsV2 from '../components/fix-for-locale-display-bug-in-theme/shows.js'
 import ReleasesV2 from '../components/fix-for-locale-display-bug-in-theme/releases.js'
 import Subscribe from '../src/components/mailchimp/subscribe.js'
+import LandingSectionTitle from '../components/fix-for-locale-display-bug-in-theme/landing-section-title.js'
 
 <Banner />
 
@@ -29,7 +30,7 @@ import Subscribe from '../src/components/mailchimp/subscribe.js'
 </div>
 
 <div id="videos">
-  <h2>Videos</h2>
+  <LandingSectionTitle>{`Videos`}</LandingSectionTitle>
 </div>
 
 <!-- Silver Bullet -->
@@ -47,11 +48,17 @@ import Subscribe from '../src/components/mailchimp/subscribe.js'
 <!-- Embed Spotify and Soundcloud tracks -->
 <!-- https://open.spotify.com/track/4uLU6hMCjMI75M1A2tKUQC -->
 
-<div id="contact" className="text-center">
-  For contact and booking information, please contact us on&nbsp;
-    <a href="https://www.facebook.com/wyattolneyandthewreckage/" target="__blank" rel="external">
-      Facebook
-    </a>
+<div id="booking-info" className="text-center">
+  <LandingSectionTitle>{`Booking Info`}</LandingSectionTitle>
+
+  <figure>
+    <img src="images/featured/live-at-the-showbox-seattle-wa-2017.06.03-00.jpeg" alt="Photo of Wyatt Olney & The Wreckage at The Showbox in Seattle WA" />
+  </figure>
+
+  <p />
+  For booking inquiries in the United States and Canada, please email <a href="mailto:wyattolney@gmail.com">here</a>.
+  <br />
+  For international booking inquiries, please email <a href="mailto:wyattolneymusic@gmail.com">here</a>.
   <p />
   <Subscribe />
 </div>
