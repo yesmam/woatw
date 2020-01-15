@@ -10,7 +10,7 @@ import IconLink from "./icon-link"
 import Icon from "./icon-by-name"
 
 const iconStyle = {
-  fontSize: [4, 5],
+  fontSize: [7, 8],
   svg: {
     fill: "currentColor",
   },
