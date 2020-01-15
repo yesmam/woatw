@@ -21,17 +21,13 @@ import LandingSectionTitle from '../components/fix-for-locale-display-bug-in-the
 </p>
 -->
 
-<ReleasesV2 releases={props.releases} locale="en-US" />
-
 <ShowsV2 shows={props.shows} locale="en-US" />
 <div id="special-announcement" className="text-center">
   <h3>Silver Bullet Summer Tour announcement coming soon!</h3>
   <p/>
 </div>
 
-<div id="videos">
-  <LandingSectionTitle>{`Videos`}</LandingSectionTitle>
-</div>
+<ReleasesV2 releases={props.releases} locale="en-US" />
 
 <!-- Silver Bullet -->
 <Youtube url="https://www.youtube.com/watch?v=_nNYBsqWMV0" />
@@ -48,6 +44,7 @@ import LandingSectionTitle from '../components/fix-for-locale-display-bug-in-the
 <!-- Embed Spotify and Soundcloud tracks -->
 <!-- https://open.spotify.com/track/4uLU6hMCjMI75M1A2tKUQC -->
 
+<!-- Booking Info -->
 <div id="booking-info" className="text-center">
   <LandingSectionTitle>{`Booking Info`}</LandingSectionTitle>
 
