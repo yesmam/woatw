@@ -3,7 +3,8 @@ navigation:
     url: "#releases"
   - text: Tour Dates
     url: "#tour-dates"
-  - text: Videos
-    url: "#videos"
-  - text: Booking Info
-    url: "#booking-info"
+  - text: Booking
+    url: "#booking"
+  # TODO: Bio will be added in an upcoming feature
+  # - text: Bio
+  #   url: "#bio"
