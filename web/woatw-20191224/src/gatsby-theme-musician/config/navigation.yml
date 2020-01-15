@@ -5,5 +5,5 @@ navigation:
     url: "#tour-dates"
   - text: Videos
     url: "#videos"
-  - text: Contact
-    url: "#contact"
+  - text: Booking Info
+    url: "#booking-info"
