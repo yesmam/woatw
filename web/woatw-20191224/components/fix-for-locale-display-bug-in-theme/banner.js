@@ -13,8 +13,6 @@ let bgOverlayStyles = {}
 
 const BannerContent = ({ title, tagline }) => (
   <>
-    <Styled.h1>{title}</Styled.h1>
-    {tagline && <p>{tagline}</p>}
     <Social />
   </>
 )
@@ -59,14 +57,17 @@ const BannerV2 = ({ children, bgOverlay, color }) => {
           fluid={bannerImg.fluid}
           sx={{ flexGrow: 1 }}
         >
-          <Container className="GtmBanner__content-wrapper">
+          <Container
+            className="GtmBanner__content-wrapper"
+            style={{ paddingTop: "0px", marginTop: "-75px" }}
+          >
             {children || bannerContentElement}
           </Container>
         </HeroImage>
       ) : (
         <Container
           className="GtmBanner__content-wrapper"
-          sx={{ alignSelf: "center" }}
+          style={{ paddingTop: "0px", marginTop: "-75px" }}
         >
           {children || bannerContentElement}
         </Container>
