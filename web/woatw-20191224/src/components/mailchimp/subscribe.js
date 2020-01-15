@@ -47,7 +47,7 @@ export default class Subscribe extends React.Component {
       this.setState({
         status: `error`,
         msg:
-          'Please enter an email address if you want to subscribe to our newsletter.'
+          'If you want to subscribe to our newsletter, please enter your email address here.'
       })
     } else {
       this.setState({
@@ -69,7 +69,7 @@ export default class Subscribe extends React.Component {
         ) : (
           <div>
             <form id='email-capture' method='post' noValidate>
-              Please enter your e-mail address if you would like to subscribe to our newsletter:
+              If you want to subscribe to our newsletter, please enter your email address:
               <p/>
               <input
                 style={{ backgroundColor: 'white' }}
