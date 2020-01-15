@@ -8,19 +8,13 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run web:start:build",
-    "build:docker": "npm run docker:web:build",
-    "start": "npm run web:start",
-    "start:docker": "npm run docker:web:start",
-    "stop": "npm run web:stop",
-    "stop:docker": "npm run docker:web:stop",
-    "web:start:build": "cd web/woatw-20191224 && npm run build",
-    "web:start": "cd web/woatw-20191224 && npm start",
-    "web:stop": "cd web/woatw-20191224 && npm run stop",
+    "build": "npm run docker:build",
+    "start": "npm run docker:start",
+    "stop": "npm run docker:stop",
     "docker:nuke": "docker system prune -a && docker volume prune",
-    "docker:web:build": "cd web/woatw-20191224 && npm run docker:build",
-    "docker:web:start": "cd web/woatw-20191224 && npm run docker:start",
-    "docker:web:stop": "cd web/woatw-20191224 && npm run docker:stop"
+    "docker:build": "cd web/woatw-20191224 && npm run docker:build",
+    "docker:start": "cd web/woatw-20191224 && npm run docker:start",
+    "docker:stop": "cd web/woatw-20191224 && npm run docker:stop"
   },
   "license": "ISC",
   "repository": {
