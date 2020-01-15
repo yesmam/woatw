@@ -47,7 +47,7 @@ export default class Subscribe extends React.Component {
       this.setState({
         status: `error`,
         msg:
-          'If you want to subscribe to our newsletter, please enter your email address here.'
+          'If you want to subscribe to our newsletter, please enter your email address.'
       })
     } else {
       this.setState({
