@@ -5,6 +5,5 @@ navigation:
     url: "#tour-dates"
   - text: Booking
     url: "#booking"
-  # TODO: Bio will be added in an upcoming feature
-  # - text: Bio
-  #   url: "#bio"
+  - text: Bio
+    url: "#bio"
