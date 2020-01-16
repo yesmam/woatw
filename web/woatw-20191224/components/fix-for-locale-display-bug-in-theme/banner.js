@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react"
 import PropTypes from "prop-types"
-import { Styled, jsx, Container } from "theme-ui"
+import { jsx, Container } from "theme-ui"
 
 import useSiteMetadata from "../use-site-metadata"
 import HeroImage from "./hero-image"
@@ -11,18 +11,9 @@ import Social from "./social"
 let additionalStyles = {}
 let bgOverlayStyles = {}
 
-const BannerContent = ({ title, tagline }) => (
-  <>
-    <Social />
-  </>
-)
-
 const BannerV2 = ({ children, bgOverlay, color }) => {
-  const { title, artist, bannerImg } = useSiteMetadata()
+  const { bannerImg } = useSiteMetadata()
 
-  if (bannerImg) {
-    additionalStyles["flexDirection"] = "column"
-  }
   if (color) {
     additionalStyles["color"] = "color"
   }
@@ -36,10 +27,7 @@ const BannerV2 = ({ children, bgOverlay, color }) => {
   }
 
   const bannerContentElement = (
-    <BannerContent
-      title={title}
-      tagline={typeof artist.tagline === "undefined" ? null : artist.tagline}
-    />
+    <Social />
   )
 
   return (
@@ -59,15 +47,13 @@ const BannerV2 = ({ children, bgOverlay, color }) => {
         >
           <Container
             className="GtmBanner__content-wrapper"
-            style={{ paddingTop: "0px", marginTop: "-75px" }}
-          >
+            >
             {children || bannerContentElement}
           </Container>
         </HeroImage>
       ) : (
         <Container
           className="GtmBanner__content-wrapper"
-          style={{ paddingTop: "0px", marginTop: "-75px" }}
         >
           {children || bannerContentElement}
         </Container>
