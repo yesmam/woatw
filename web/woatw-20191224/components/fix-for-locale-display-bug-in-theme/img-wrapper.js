@@ -8,7 +8,6 @@ export default ({ children, src, ratio = 1, ...props }) => (
     {...props}
     sx={{
       width: "100%",
-      height: 0,
       pb: ratio * 100 + "%",
       backgroundColor: "bgAccent",
       backgroundImage: src ? `url(${src})` : `none`,
