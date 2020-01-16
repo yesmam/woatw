@@ -4,7 +4,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { jsx, Container } from "theme-ui"
 
-import useSiteMetadata from "../use-site-metadata"
+import useSiteMetadata from "./use-site-metadata"
 import HeroImage from "./hero-image"
 import Social from "./social"
 

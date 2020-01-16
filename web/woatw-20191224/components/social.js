@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 import { jsx } from "theme-ui"
 import VisuallyHidden from "@reach/visually-hidden"
 
-import useSiteMetadata from "../use-site-metadata"
+import useSiteMetadata from "./use-site-metadata"
 import IconLink from "./icon-link"
 import Icon from "./icon-by-name"
 
