@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby"
-import userConfig from "../src/gatsby-theme-musician/config/artist.yml"
+import userConfig from "../gatsby-theme-musician/config/artist.yml"
 // eslint-disable-next-line import/no-unresolved
-import textLabels from "../src/gatsby-theme-musician/config/text_labels.yml"
+import textLabels from "../gatsby-theme-musician/config/text_labels.yml"
 
 function hasObjectAndLength(parentObj, childObjKey) {
   if (typeof parentObj[childObjKey] !== "undefined") {
@@ -68,7 +68,7 @@ export default () => {
 }
 
 const siteQuery = graphql`
-  query SiteQuery {
+  query SiteQueryV2 {
     site {
       siteMetadata {
         title
