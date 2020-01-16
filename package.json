@@ -14,7 +14,8 @@
     "docker:nuke": "docker system prune -a && docker volume prune",
     "docker:build": "cd web/woatw-20191224 && npm run docker:build",
     "docker:start": "cd web/woatw-20191224 && npm run docker:start",
-    "docker:stop": "cd web/woatw-20191224 && npm run docker:stop"
+    "docker:stop": "cd web/woatw-20191224 && npm run docker:stop",
+    "clean": "cd web/woatw-20191224 && npm run clean"
   },
   "license": "ISC",
   "repository": {
