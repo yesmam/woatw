@@ -12,7 +12,7 @@ const ShowsV2 = ({ shows = [], locale = "en-US" }) => {
   const sectionTitle = textLabels.section_shows_title || "Tour Dates"
 
   return (
-    <section id="tour-dates" sx={{ variant: "layout.landingSection" }}>
+    <section id="tour-dates" sx={{ variant: "layout.landingSection", paddingTop: 0 }}>
       <LandingSectionTitle>{sectionTitle}</LandingSectionTitle>
       <ol
         sx={{
