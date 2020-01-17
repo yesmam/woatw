@@ -8,14 +8,16 @@ import useSiteMetadata from "./use-site-metadata"
 import HeroImage from "./hero-image"
 import Social from "./social"
 
-let additionalStyles = {}
+let additionalStyles = {
+  minHeight: '200px',
+}
 let bgOverlayStyles = {}
 
 const BannerV2 = ({ children, bgOverlay, color }) => {
   const { bannerImg } = useSiteMetadata()
 
   if (color) {
-    additionalStyles["color"] = "color"
+    additionalStyles["color"] = color
   }
 
   if (bgOverlay) {
@@ -43,10 +45,12 @@ const BannerV2 = ({ children, bgOverlay, color }) => {
         <HeroImage
           className="GtmBanner__hero-wrapper"
           fluid={bannerImg.fluid}
-          sx={{ flexGrow: 1 }}
+          sx={{ flexGrow: 0, display: 'contents' }}
         >
           <Container
-            className="GtmBanner__content-wrapper"
+            className="GtmBanner__content-wrapper abc"
+            sx={{ flexGrow: 0 }}
+            style={{ paddingTop: 40 }}
             >
             {children || bannerContentElement}
           </Container>
