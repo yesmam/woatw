@@ -29,25 +29,6 @@ const ShowsV2 = ({ shows = [], locale = 'en-US' }) => {
             return <ShowItem {...node} key={node.id} locale={locale} />
           })}
       </ol>
-      <div id='special-announcement' className='text-justified'>
-        <p>
-          We want to encourage all of you to be healthy and stay safe. As you
-          may already know, Washington state is joining other states across the
-          nation in{' '}
-          <a
-            href='https://q13fox.com/2020/03/15/restaurants-bars-entertainment-to-close-statewide-immediately-in-king-county/'
-            target='__blank'
-          >
-            temporarily shutting down restaurants, bars, and entertainment
-            venues
-          </a>{' '}
-          in an effort to combat the COVID-19 (coronavirus) concerns that are
-          taking the world by storm.
-        </p>
-        <div className='text-centered'>
-          <h3>We look forward to entertaining you soon.</h3>
-        </div>
-      </div>
     </section>
   )
 }
