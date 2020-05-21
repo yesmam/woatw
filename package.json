@@ -7,15 +7,7 @@
     "node": "12.x"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run docker:build",
-    "start": "npm run docker:start",
-    "stop": "npm run docker:stop",
-    "docker:nuke": "docker system prune -a && docker volume prune",
-    "docker:build": "cd web/woatw-20191224 && npm run docker:build",
-    "docker:start": "cd web/woatw-20191224 && npm run docker:start",
-    "docker:stop": "cd web/woatw-20191224 && npm run docker:stop",
-    "clean": "cd web/woatw-20191224 && npm run clean"
+    "start": "now dev"
   },
   "license": "ISC",
   "repository": {
